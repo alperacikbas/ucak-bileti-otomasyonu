@@ -2,7 +2,7 @@ import { Button } from 'antd';
 
 function PaymentSuccess() {
   const handleGoHome = () => {
-    window.location.href = '/profile'; // veya "/search" istiyorsan orası
+    window.location.href = '/profile'; 
   };
 
   return (

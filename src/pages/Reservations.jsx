@@ -9,7 +9,7 @@ function Reservations() {
 
   useEffect(() => {
     const all = JSON.parse(localStorage.getItem('reservations') || '[]');
-    setReservations(all); // Tüm rezervasyonlar yüklensin
+    setReservations(all); 
   }, []);
 
   const columns = [

@@ -1,4 +1,3 @@
-// components/Navbar.js
 import { Layout, Menu } from 'antd';
 import { SearchOutlined, LogoutOutlined, OrderedListOutlined } from '@ant-design/icons';
 

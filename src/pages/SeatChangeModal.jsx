@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const { Option } = Select;
 
-const FLIGHTS_URL = 'https://api.sheetbest.com/sheets/bb16ce8b-7539-4575-9d39-93c16837e221'; // <-- kendi linkinle değiştir
+const FLIGHTS_URL = 'https://api.sheetbest.com/sheets/bb16ce8b-7539-4575-9d39-93c16837e221'; 
 
 function SeatChangeModal({ open, onClose, flightId, currentSeat, onSuccess }) {
   const [seatOptions, setSeatOptions] = useState([]);
