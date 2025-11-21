@@ -4,10 +4,10 @@ import axios from 'axios';
 import emailjs from '@emailjs/browser';
 
 
-const FLIGHTS_URL = 'https://api.sheetbest.com/sheets/bb16ce8b-7539-4575-9d39-93c16837e221';
-const SERVICE_ID = 'service_w750hpn';
-const TEMPLATE_ID = 'template_t7fyhc3';
-const PUBLIC_KEY = 'bKEvBW9npeUYVT936';
+const FLIGHTS_URL = '';
+const SERVICE_ID = '';
+const TEMPLATE_ID = '';
+const PUBLIC_KEY = '';
 
 
 function Payment() {
@@ -60,7 +60,7 @@ all.push({
   date: flight.tarih,
   airline: flight.havayolu,
   seat: seat.koltuk_no,
-  flightId: flight.id  // ✅ FLIGHT ID BURADA KAYDEDİLİYOR
+  flightId: flight.id  
 });
 console.log(flight.id)
 localStorage.setItem('reservations', JSON.stringify(all));

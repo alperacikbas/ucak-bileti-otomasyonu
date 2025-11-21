@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const { Title } = Typography;
 
-const SHEET_URL = 'https://api.sheetbest.com/sheets/fe71ea82-51d1-43d6-80e9-4d37e572cd9d';
+const SHEET_URL = '';
 
 function Register() {
   const onFinish = async (values) => {

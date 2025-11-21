@@ -6,7 +6,7 @@ import dayjs from 'dayjs';
 const { Option } = Select;
 const { Title } = Typography;
 
-const FLIGHTS_URL = 'https://api.sheetbest.com/sheets/bb16ce8b-7539-4575-9d39-93c16837e221';
+const FLIGHTS_URL = '';
 
 const SEHIRLER = [
   "İstanbul", "Ankara", "İzmir", "Antalya", "Adana",
